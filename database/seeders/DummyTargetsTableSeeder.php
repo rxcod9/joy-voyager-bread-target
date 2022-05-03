@@ -14,7 +14,7 @@ class DummyTargetsTableSeeder extends Seeder
      */
     public function run()
     {
-        $count = 100;
+        $count = 20;
         Target::factory()
             ->count($count)
             ->state(function (array $attributes) use ($count) {
